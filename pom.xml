@@ -5,10 +5,10 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.example.spring.boot</groupId>
-	<artifactId>403_Spring_Boot_JaxrsJerseyEndpoints</artifactId>
+	<artifactId>SpringBoot_03_JaxrsJerseyEndpoints</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>403_Spring_Boot_JaxrsJerseyEndpoints</name>
+	<name>SpringBoot_03_JaxrsJerseyEndpoints</name>
 
 	<properties>
 		<java.version>1.8</java.version>
