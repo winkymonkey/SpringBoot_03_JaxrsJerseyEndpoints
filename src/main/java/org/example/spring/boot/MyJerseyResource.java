@@ -1,4 +1,4 @@
-package com.example.spring.boot;
+package org.example.spring.boot;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
