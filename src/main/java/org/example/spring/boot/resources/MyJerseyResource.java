@@ -1,4 +1,4 @@
-package org.example.spring.boot;
+package org.example.spring.boot.resources;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -15,6 +15,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
+import org.example.spring.boot.models.CustomError;
+import org.example.spring.boot.models.Student;
 import org.springframework.util.StringUtils;
 
 

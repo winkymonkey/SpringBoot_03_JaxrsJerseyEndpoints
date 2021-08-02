@@ -1,5 +1,9 @@
-package org.example.spring.boot;
+package org.example.spring.boot.config;
 
+import org.example.spring.boot.filters.X1MyContainerRequestFilter;
+import org.example.spring.boot.filters.X2MyContainerRequestFilter;
+import org.example.spring.boot.filters.X3MyContainerResponseFilter;
+import org.example.spring.boot.resources.MyJerseyResource;
 import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
@@ -13,4 +17,5 @@ public class JerseyConfig extends ResourceConfig {
         register(X2MyContainerRequestFilter.class);
         register(X3MyContainerResponseFilter.class);
     }
+	
 }

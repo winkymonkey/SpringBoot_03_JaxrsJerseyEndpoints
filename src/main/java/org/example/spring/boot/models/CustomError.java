@@ -1,11 +1,12 @@
-package org.example.spring.boot;
+package org.example.spring.boot.models;
 
 
 public class CustomError {
+	
 	private String message;
 	private String moreDetails;
 	
-	CustomError(String message, String moreDetails) {
+	public CustomError(String message, String moreDetails) {
 		this.message = message;
 		this.moreDetails = moreDetails;
 	}

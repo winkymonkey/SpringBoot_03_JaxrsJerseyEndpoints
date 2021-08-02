@@ -1,6 +1,8 @@
-package org.example.spring.boot;
+package org.example.spring.boot.models;
+
 
 public class Student {
+	
 	private String name;
 	private String id;
 	
@@ -16,6 +18,7 @@ public class Student {
 	public void setId(String id) {
 		this.id = id;
 	}
+	
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
@@ -26,4 +29,5 @@ public class Student {
 		builder.append("]");
 		return builder.toString();
 	}
+	
 }
